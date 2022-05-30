@@ -10,7 +10,7 @@ function Profile(props) {
       </div>
       <div className="profile__birth">
         Was born {moment(props.userData.birthDate).format("DD MMM YY")} in{" "}
-        {props.userData.birthPlace}.
+        {props.userData.birthPlace}
       </div>
     </div>
   );
