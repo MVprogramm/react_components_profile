@@ -1,0 +1,13 @@
+.profile {
+  margin: auto;
+  padding: 8px;
+  border: 3px solid #eee;
+
+  &__name {
+    font-weight: 700;
+  }
+
+  &__birth {
+    font-weight: 400;
+  }
+}
